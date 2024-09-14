@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.mobile-nav{
+
+  @apply fixed top-16 bg-gray-600 w-full h-1/3;
+}
+
+.mobile-nav li{
+  @apply border border-b-2 border-white
+}
+
+html{
+  scroll-behavior: smooth;
+}
